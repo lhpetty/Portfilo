@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F99BD4620913E970097F359 /* whiteNodeFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F99BD4520913E970097F359 /* whiteNodeFinal.png */; };
+		3FA24998208E8DD700E17574 /* blackNode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA24997208E8DD700E17574 /* blackNode2.png */; };
+		3FA2499A208E8DE000E17574 /* crossNode.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA24999208E8DE000E17574 /* crossNode.png */; };
+		3FCDAE3F208557DA0024325D /* whiteNode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDAE3E208557DA0024325D /* whiteNode2.png */; };
+		3FDDBDD2207EBF190059F7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBDD1207EBF190059F7A5 /* AppDelegate.swift */; };
+		3FDDBDD4207EBF190059F7A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBDD3207EBF190059F7A5 /* ViewController.swift */; };
+		3FDDBDD7207EBF190059F7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDBDD5207EBF190059F7A5 /* Main.storyboard */; };
+		3FDDBDD9207EBF190059F7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDBDD8207EBF190059F7A5 /* Assets.xcassets */; };
+		3FDDBDDC207EBF190059F7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDBDDA207EBF190059F7A5 /* LaunchScreen.storyboard */; };
+		3FDDBDE7207EBF190059F7A5 /* PicrossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBDE6207EBF190059F7A5 /* PicrossTests.swift */; };
+		3FDDBDF2207EBF190059F7A5 /* PicrossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBDF1207EBF190059F7A5 /* PicrossUITests.swift */; };
+		3FDDBE00207EC0000059F7A5 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDBDFF207EC0000059F7A5 /* grid.png */; };
+		3FDDBE02207EC01B0059F7A5 /* Toad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDBE01207EC01B0059F7A5 /* Toad.png */; };
+		3FDDBE04207EC24D0059F7A5 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBE03207EC24D0059F7A5 /* Grid.swift */; };
+		3FDDBE06207EC27E0059F7A5 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDBE05207EC27E0059F7A5 /* Block.swift */; };
+		3FF9958A2097A94200805C0D /* blackNodeFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF995892097A94200805C0D /* blackNodeFinal.png */; };
+		3FF9958C2097A9A900805C0D /* blackNodeFinal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9958B2097A9A900805C0D /* blackNodeFinal2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDDBDE3207EBF190059F7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDDBDC6207EBF190059F7A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDDBDCD207EBF190059F7A5;
+			remoteInfo = Picross;
+		};
+		3FDDBDEE207EBF190059F7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDDBDC6207EBF190059F7A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDDBDCD207EBF190059F7A5;
+			remoteInfo = Picross;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F99BD4520913E970097F359 /* whiteNodeFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteNodeFinal.png; sourceTree = "<group>"; };
+		3FA24997208E8DD700E17574 /* blackNode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackNode2.png; sourceTree = "<group>"; };
+		3FA24999208E8DE000E17574 /* crossNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossNode.png; sourceTree = "<group>"; };
+		3FCDAE3E208557DA0024325D /* whiteNode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteNode2.png; sourceTree = "<group>"; };
+		3FDDBDCE207EBF190059F7A5 /* Picross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picross.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDBDD1207EBF190059F7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDDBDD3207EBF190059F7A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDDBDD6207EBF190059F7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDDBDD8207EBF190059F7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDDBDDB207EBF190059F7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FDDBDDD207EBF190059F7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDDBDE2207EBF190059F7A5 /* PicrossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicrossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDBDE6207EBF190059F7A5 /* PicrossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicrossTests.swift; sourceTree = "<group>"; };
+		3FDDBDE8207EBF190059F7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDDBDED207EBF190059F7A5 /* PicrossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicrossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDBDF1207EBF190059F7A5 /* PicrossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicrossUITests.swift; sourceTree = "<group>"; };
+		3FDDBDF3207EBF190059F7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDDBDFF207EC0000059F7A5 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		3FDDBE01207EC01B0059F7A5 /* Toad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toad.png; sourceTree = "<group>"; };
+		3FDDBE03207EC24D0059F7A5 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		3FDDBE05207EC27E0059F7A5 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		3FF995892097A94200805C0D /* blackNodeFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackNodeFinal.png; sourceTree = "<group>"; };
+		3FF9958B2097A9A900805C0D /* blackNodeFinal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackNodeFinal2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDDBDCB207EBF190059F7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDDF207EBF190059F7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDEA207EBF190059F7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDDBDC5207EBF190059F7A5 = {
+			isa = PBXGroup;
+			children = (
+				3FDDBDD0207EBF190059F7A5 /* Picross */,
+				3FDDBDE5207EBF190059F7A5 /* PicrossTests */,
+				3FDDBDF0207EBF190059F7A5 /* PicrossUITests */,
+				3FDDBDCF207EBF190059F7A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDDBDCF207EBF190059F7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDBDCE207EBF190059F7A5 /* Picross.app */,
+				3FDDBDE2207EBF190059F7A5 /* PicrossTests.xctest */,
+				3FDDBDED207EBF190059F7A5 /* PicrossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDDBDD0207EBF190059F7A5 /* Picross */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDBDD1207EBF190059F7A5 /* AppDelegate.swift */,
+				3FDDBDD3207EBF190059F7A5 /* ViewController.swift */,
+				3FDDBE03207EC24D0059F7A5 /* Grid.swift */,
+				3FDDBE05207EC27E0059F7A5 /* Block.swift */,
+				3FDDBDD5207EBF190059F7A5 /* Main.storyboard */,
+				3FDDBDD8207EBF190059F7A5 /* Assets.xcassets */,
+				3FDDBDDA207EBF190059F7A5 /* LaunchScreen.storyboard */,
+				3FDDBDFF207EC0000059F7A5 /* grid.png */,
+				3FA24997208E8DD700E17574 /* blackNode2.png */,
+				3FF9958B2097A9A900805C0D /* blackNodeFinal2.png */,
+				3FF995892097A94200805C0D /* blackNodeFinal.png */,
+				3FA24999208E8DE000E17574 /* crossNode.png */,
+				3FDDBE01207EC01B0059F7A5 /* Toad.png */,
+				3FCDAE3E208557DA0024325D /* whiteNode2.png */,
+				3F99BD4520913E970097F359 /* whiteNodeFinal.png */,
+				3FDDBDDD207EBF190059F7A5 /* Info.plist */,
+			);
+			path = Picross;
+			sourceTree = "<group>";
+		};
+		3FDDBDE5207EBF190059F7A5 /* PicrossTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDBDE6207EBF190059F7A5 /* PicrossTests.swift */,
+				3FDDBDE8207EBF190059F7A5 /* Info.plist */,
+			);
+			path = PicrossTests;
+			sourceTree = "<group>";
+		};
+		3FDDBDF0207EBF190059F7A5 /* PicrossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDBDF1207EBF190059F7A5 /* PicrossUITests.swift */,
+				3FDDBDF3207EBF190059F7A5 /* Info.plist */,
+			);
+			path = PicrossUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDDBDCD207EBF190059F7A5 /* Picross */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDBDF6207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "Picross" */;
+			buildPhases = (
+				3FDDBDCA207EBF190059F7A5 /* Sources */,
+				3FDDBDCB207EBF190059F7A5 /* Frameworks */,
+				3FDDBDCC207EBF190059F7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picross;
+			productName = Picross;
+			productReference = 3FDDBDCE207EBF190059F7A5 /* Picross.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDDBDE1207EBF190059F7A5 /* PicrossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDBDF9207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "PicrossTests" */;
+			buildPhases = (
+				3FDDBDDE207EBF190059F7A5 /* Sources */,
+				3FDDBDDF207EBF190059F7A5 /* Frameworks */,
+				3FDDBDE0207EBF190059F7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDDBDE4207EBF190059F7A5 /* PBXTargetDependency */,
+			);
+			name = PicrossTests;
+			productName = PicrossTests;
+			productReference = 3FDDBDE2207EBF190059F7A5 /* PicrossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FDDBDEC207EBF190059F7A5 /* PicrossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDBDFC207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "PicrossUITests" */;
+			buildPhases = (
+				3FDDBDE9207EBF190059F7A5 /* Sources */,
+				3FDDBDEA207EBF190059F7A5 /* Frameworks */,
+				3FDDBDEB207EBF190059F7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDDBDEF207EBF190059F7A5 /* PBXTargetDependency */,
+			);
+			name = PicrossUITests;
+			productName = PicrossUITests;
+			productReference = 3FDDBDED207EBF190059F7A5 /* PicrossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDDBDC6207EBF190059F7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FDDBDCD207EBF190059F7A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3FDDBDE1207EBF190059F7A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FDDBDCD207EBF190059F7A5;
+					};
+					3FDDBDEC207EBF190059F7A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FDDBDCD207EBF190059F7A5;
+					};
+				};
+			};
+			buildConfigurationList = 3FDDBDC9207EBF190059F7A5 /* Build configuration list for PBXProject "Picross" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDDBDC5207EBF190059F7A5;
+			productRefGroup = 3FDDBDCF207EBF190059F7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDDBDCD207EBF190059F7A5 /* Picross */,
+				3FDDBDE1207EBF190059F7A5 /* PicrossTests */,
+				3FDDBDEC207EBF190059F7A5 /* PicrossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDDBDCC207EBF190059F7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA2499A208E8DE000E17574 /* crossNode.png in Resources */,
+				3FDDBDDC207EBF190059F7A5 /* LaunchScreen.storyboard in Resources */,
+				3FDDBE00207EC0000059F7A5 /* grid.png in Resources */,
+				3FCDAE3F208557DA0024325D /* whiteNode2.png in Resources */,
+				3FF9958C2097A9A900805C0D /* blackNodeFinal2.png in Resources */,
+				3FDDBE02207EC01B0059F7A5 /* Toad.png in Resources */,
+				3F99BD4620913E970097F359 /* whiteNodeFinal.png in Resources */,
+				3FF9958A2097A94200805C0D /* blackNodeFinal.png in Resources */,
+				3FA24998208E8DD700E17574 /* blackNode2.png in Resources */,
+				3FDDBDD9207EBF190059F7A5 /* Assets.xcassets in Resources */,
+				3FDDBDD7207EBF190059F7A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDE0207EBF190059F7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDEB207EBF190059F7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDDBDCA207EBF190059F7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDBDD4207EBF190059F7A5 /* ViewController.swift in Sources */,
+				3FDDBE06207EC27E0059F7A5 /* Block.swift in Sources */,
+				3FDDBDD2207EBF190059F7A5 /* AppDelegate.swift in Sources */,
+				3FDDBE04207EC24D0059F7A5 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDDE207EBF190059F7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDBDE7207EBF190059F7A5 /* PicrossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDBDE9207EBF190059F7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDBDF2207EBF190059F7A5 /* PicrossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDDBDE4207EBF190059F7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDDBDCD207EBF190059F7A5 /* Picross */;
+			targetProxy = 3FDDBDE3207EBF190059F7A5 /* PBXContainerItemProxy */;
+		};
+		3FDDBDEF207EBF190059F7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDDBDCD207EBF190059F7A5 /* Picross */;
+			targetProxy = 3FDDBDEE207EBF190059F7A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDDBDD5207EBF190059F7A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDDBDD6207EBF190059F7A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDDBDDA207EBF190059F7A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDDBDDB207EBF190059F7A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDDBDF4207EBF190059F7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDDBDF5207EBF190059F7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDDBDF7207EBF190059F7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picross/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.Picross;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDDBDF8207EBF190059F7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Picross/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.Picross;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FDDBDFA207EBF190059F7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicrossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.PicrossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picross.app/Picross";
+			};
+			name = Debug;
+		};
+		3FDDBDFB207EBF190059F7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicrossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.PicrossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picross.app/Picross";
+			};
+			name = Release;
+		};
+		3FDDBDFD207EBF190059F7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicrossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.PicrossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picross;
+			};
+			name = Debug;
+		};
+		3FDDBDFE207EBF190059F7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicrossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.PicrossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Picross;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDDBDC9207EBF190059F7A5 /* Build configuration list for PBXProject "Picross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDBDF4207EBF190059F7A5 /* Debug */,
+				3FDDBDF5207EBF190059F7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDBDF6207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "Picross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDBDF7207EBF190059F7A5 /* Debug */,
+				3FDDBDF8207EBF190059F7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDBDF9207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "PicrossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDBDFA207EBF190059F7A5 /* Debug */,
+				3FDDBDFB207EBF190059F7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDBDFC207EBF190059F7A5 /* Build configuration list for PBXNativeTarget "PicrossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDBDFD207EBF190059F7A5 /* Debug */,
+				3FDDBDFE207EBF190059F7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDDBDC6207EBF190059F7A5 /* Project object */;
+}

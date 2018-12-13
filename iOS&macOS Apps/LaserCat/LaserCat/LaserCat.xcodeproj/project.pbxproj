@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F19A07421B075E400755EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A07321B075E400755EE7 /* AppDelegate.swift */; };
+		3F19A07621B075E400755EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A07521B075E400755EE7 /* ViewController.swift */; };
+		3F19A07821B075E700755EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A07721B075E700755EE7 /* Assets.xcassets */; };
+		3F19A07B21B075E700755EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A07921B075E700755EE7 /* Main.storyboard */; };
+		3F19A08721B075E700755EE7 /* LaserCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A08621B075E700755EE7 /* LaserCatTests.swift */; };
+		3F19A09221B075E700755EE7 /* LaserCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A09121B075E700755EE7 /* LaserCatUITests.swift */; };
+		3F19A0A021B0760C00755EE7 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A09F21B0760C00755EE7 /* TitleScreen.swift */; };
+		3F19A0A221B0766800755EE7 /* laserCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A0A121B0766800755EE7 /* laserCats.swift */; };
+		3F19A0A421B076C300755EE7 /* CatHero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A0A321B076C300755EE7 /* CatHero.png */; };
+		3F19A0A621B076CB00755EE7 /* Mice.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A0A521B076CB00755EE7 /* Mice.png */; };
+		3F19A0A821B076F100755EE7 /* Rat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A0A721B076F100755EE7 /* Rat.png */; };
+		3F19A0AA21B076F700755EE7 /* Space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A0A921B076F700755EE7 /* Space.jpg */; };
+		3F19A0AC21B076FE00755EE7 /* Tekken 7 OST Arctic Snowfall - Final Round.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A0AB21B076FE00755EE7 /* Tekken 7 OST Arctic Snowfall - Final Round.mp3 */; };
+		3F24B58E21B5A1990061A62E /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24B58D21B5A1990061A62E /* GameOver.swift */; };
+		3F24B59021B5A1C10061A62E /* VictoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24B58F21B5A1C10061A62E /* VictoryScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F19A08321B075E700755EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F19A06821B075E400755EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F19A06F21B075E400755EE7;
+			remoteInfo = LaserCat;
+		};
+		3F19A08E21B075E700755EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F19A06821B075E400755EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F19A06F21B075E400755EE7;
+			remoteInfo = LaserCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F19A07021B075E400755EE7 /* LaserCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19A07321B075E400755EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F19A07521B075E400755EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F19A07721B075E700755EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F19A07A21B075E700755EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F19A07C21B075E700755EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F19A07D21B075E700755EE7 /* LaserCat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaserCat.entitlements; sourceTree = "<group>"; };
+		3F19A08221B075E700755EE7 /* LaserCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19A08621B075E700755EE7 /* LaserCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserCatTests.swift; sourceTree = "<group>"; };
+		3F19A08821B075E700755EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F19A08D21B075E700755EE7 /* LaserCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19A09121B075E700755EE7 /* LaserCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserCatUITests.swift; sourceTree = "<group>"; };
+		3F19A09321B075E700755EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F19A09F21B0760C00755EE7 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		3F19A0A121B0766800755EE7 /* laserCats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laserCats.swift; sourceTree = "<group>"; };
+		3F19A0A321B076C300755EE7 /* CatHero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CatHero.png; sourceTree = "<group>"; };
+		3F19A0A521B076CB00755EE7 /* Mice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mice.png; sourceTree = "<group>"; };
+		3F19A0A721B076F100755EE7 /* Rat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rat.png; sourceTree = "<group>"; };
+		3F19A0A921B076F700755EE7 /* Space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space.jpg; sourceTree = "<group>"; };
+		3F19A0AB21B076FE00755EE7 /* Tekken 7 OST Arctic Snowfall - Final Round.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tekken 7 OST Arctic Snowfall - Final Round.mp3"; sourceTree = "<group>"; };
+		3F24B58D21B5A1990061A62E /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		3F24B58F21B5A1C10061A62E /* VictoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F19A06D21B075E400755EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A07F21B075E700755EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A08A21B075E700755EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F19A06721B075E400755EE7 = {
+			isa = PBXGroup;
+			children = (
+				3F19A07221B075E400755EE7 /* LaserCat */,
+				3F19A08521B075E700755EE7 /* LaserCatTests */,
+				3F19A09021B075E700755EE7 /* LaserCatUITests */,
+				3F19A07121B075E400755EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F19A07121B075E400755EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F19A07021B075E400755EE7 /* LaserCat.app */,
+				3F19A08221B075E700755EE7 /* LaserCatTests.xctest */,
+				3F19A08D21B075E700755EE7 /* LaserCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F19A07221B075E400755EE7 /* LaserCat */ = {
+			isa = PBXGroup;
+			children = (
+				3F19A07321B075E400755EE7 /* AppDelegate.swift */,
+				3F19A07521B075E400755EE7 /* ViewController.swift */,
+				3F19A07721B075E700755EE7 /* Assets.xcassets */,
+				3F19A07921B075E700755EE7 /* Main.storyboard */,
+				3F19A09F21B0760C00755EE7 /* TitleScreen.swift */,
+				3F19A0A121B0766800755EE7 /* laserCats.swift */,
+				3F24B58D21B5A1990061A62E /* GameOver.swift */,
+				3F24B58F21B5A1C10061A62E /* VictoryScreen.swift */,
+				3F19A0A321B076C300755EE7 /* CatHero.png */,
+				3F19A0A721B076F100755EE7 /* Rat.png */,
+				3F19A0AB21B076FE00755EE7 /* Tekken 7 OST Arctic Snowfall - Final Round.mp3 */,
+				3F19A0A521B076CB00755EE7 /* Mice.png */,
+				3F19A0A921B076F700755EE7 /* Space.jpg */,
+				3F19A07C21B075E700755EE7 /* Info.plist */,
+				3F19A07D21B075E700755EE7 /* LaserCat.entitlements */,
+			);
+			path = LaserCat;
+			sourceTree = "<group>";
+		};
+		3F19A08521B075E700755EE7 /* LaserCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F19A08621B075E700755EE7 /* LaserCatTests.swift */,
+				3F19A08821B075E700755EE7 /* Info.plist */,
+			);
+			path = LaserCatTests;
+			sourceTree = "<group>";
+		};
+		3F19A09021B075E700755EE7 /* LaserCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F19A09121B075E700755EE7 /* LaserCatUITests.swift */,
+				3F19A09321B075E700755EE7 /* Info.plist */,
+			);
+			path = LaserCatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F19A06F21B075E400755EE7 /* LaserCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19A09621B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCat" */;
+			buildPhases = (
+				3F19A06C21B075E400755EE7 /* Sources */,
+				3F19A06D21B075E400755EE7 /* Frameworks */,
+				3F19A06E21B075E400755EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaserCat;
+			productName = LaserCat;
+			productReference = 3F19A07021B075E400755EE7 /* LaserCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F19A08121B075E700755EE7 /* LaserCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19A09921B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCatTests" */;
+			buildPhases = (
+				3F19A07E21B075E700755EE7 /* Sources */,
+				3F19A07F21B075E700755EE7 /* Frameworks */,
+				3F19A08021B075E700755EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F19A08421B075E700755EE7 /* PBXTargetDependency */,
+			);
+			name = LaserCatTests;
+			productName = LaserCatTests;
+			productReference = 3F19A08221B075E700755EE7 /* LaserCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F19A08C21B075E700755EE7 /* LaserCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F19A09C21B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCatUITests" */;
+			buildPhases = (
+				3F19A08921B075E700755EE7 /* Sources */,
+				3F19A08A21B075E700755EE7 /* Frameworks */,
+				3F19A08B21B075E700755EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F19A08F21B075E700755EE7 /* PBXTargetDependency */,
+			);
+			name = LaserCatUITests;
+			productName = LaserCatUITests;
+			productReference = 3F19A08D21B075E700755EE7 /* LaserCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F19A06821B075E400755EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F19A06F21B075E400755EE7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3F19A08121B075E700755EE7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F19A06F21B075E400755EE7;
+					};
+					3F19A08C21B075E700755EE7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3F19A06F21B075E400755EE7;
+					};
+				};
+			};
+			buildConfigurationList = 3F19A06B21B075E400755EE7 /* Build configuration list for PBXProject "LaserCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F19A06721B075E400755EE7;
+			productRefGroup = 3F19A07121B075E400755EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F19A06F21B075E400755EE7 /* LaserCat */,
+				3F19A08121B075E700755EE7 /* LaserCatTests */,
+				3F19A08C21B075E700755EE7 /* LaserCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F19A06E21B075E400755EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19A07821B075E700755EE7 /* Assets.xcassets in Resources */,
+				3F19A0AC21B076FE00755EE7 /* Tekken 7 OST Arctic Snowfall - Final Round.mp3 in Resources */,
+				3F19A0A621B076CB00755EE7 /* Mice.png in Resources */,
+				3F19A0AA21B076F700755EE7 /* Space.jpg in Resources */,
+				3F19A0A421B076C300755EE7 /* CatHero.png in Resources */,
+				3F19A0A821B076F100755EE7 /* Rat.png in Resources */,
+				3F19A07B21B075E700755EE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A08021B075E700755EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A08B21B075E700755EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F19A06C21B075E400755EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19A0A221B0766800755EE7 /* laserCats.swift in Sources */,
+				3F19A07621B075E400755EE7 /* ViewController.swift in Sources */,
+				3F24B59021B5A1C10061A62E /* VictoryScreen.swift in Sources */,
+				3F19A07421B075E400755EE7 /* AppDelegate.swift in Sources */,
+				3F24B58E21B5A1990061A62E /* GameOver.swift in Sources */,
+				3F19A0A021B0760C00755EE7 /* TitleScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A07E21B075E700755EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19A08721B075E700755EE7 /* LaserCatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F19A08921B075E700755EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F19A09221B075E700755EE7 /* LaserCatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F19A08421B075E700755EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F19A06F21B075E400755EE7 /* LaserCat */;
+			targetProxy = 3F19A08321B075E700755EE7 /* PBXContainerItemProxy */;
+		};
+		3F19A08F21B075E700755EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F19A06F21B075E400755EE7 /* LaserCat */;
+			targetProxy = 3F19A08E21B075E700755EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F19A07921B075E700755EE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F19A07A21B075E700755EE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F19A09421B075E700755EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F19A09521B075E700755EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F19A09721B075E700755EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LaserCat/LaserCat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3F19A09821B075E700755EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LaserCat/LaserCat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		3F19A09A21B075E700755EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserCat.app/Contents/MacOS/LaserCat";
+			};
+			name = Debug;
+		};
+		3F19A09B21B075E700755EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserCat.app/Contents/MacOS/LaserCat";
+			};
+			name = Release;
+		};
+		3F19A09D21B075E700755EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = LaserCat;
+			};
+			name = Debug;
+		};
+		3F19A09E21B075E700755EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LaserCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ame.asu.edu.LaserCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = LaserCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F19A06B21B075E400755EE7 /* Build configuration list for PBXProject "LaserCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19A09421B075E700755EE7 /* Debug */,
+				3F19A09521B075E700755EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19A09621B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19A09721B075E700755EE7 /* Debug */,
+				3F19A09821B075E700755EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19A09921B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19A09A21B075E700755EE7 /* Debug */,
+				3F19A09B21B075E700755EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F19A09C21B075E700755EE7 /* Build configuration list for PBXNativeTarget "LaserCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F19A09D21B075E700755EE7 /* Debug */,
+				3F19A09E21B075E700755EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F19A06821B075E400755EE7 /* Project object */;
+}

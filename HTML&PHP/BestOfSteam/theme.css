@@ -1,0 +1,222 @@
+/* Background Fix BEGIN */
+html { height: 100%; }
+body {
+	background: #303030;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+/* Background Fix END */
+
+/* Main Content BEGIN */
+#main-content {
+	width: 50%;
+	padding: 1%;
+	margin: 0 20px;
+	border-style: ridge;
+	border-radius: 20px;
+}
+#post-shit {
+	width: 30%;
+	padding: 1%;
+	float: right;
+	margin: 0 20px;
+	border-style: ridge;
+	border-radius: 20px;
+}
+h1 {
+	color: #4499ff;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 0px #0099FF;
+}
+h2 {
+	color: #4499ff;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 0px #0099FF;
+}
+p {
+	color: white;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+/* Main Content END */
+
+/* Post Content BEGIN */
+#post-content, #comments, #sign-in {
+	float: left;
+	width: 50%;
+	padding: 1%;
+	margin: 20px;
+	border-style: ridge;
+	border-radius: 20px;
+}
+#sign-in {
+	margin: 40px !important;
+	padding: 10px !important;
+	width: 35% !important;
+}
+/* Post Content END */
+
+/* Post Actions BEGIN */
+#post-actions, #sign-up {
+	float: right;
+	width: 30%;
+	padding: 1%;
+	margin: 20px;
+	border-style: ridge;
+	border-radius: 20px;
+}
+#sign-up {
+	margin: 40px !important;
+	padding: 10px !important;
+	width: 35% !important;
+}
+/* Post Actions END */
+
+/* Post Image BEGIN */
+.post-img {
+	width: 90%;
+}
+/* Post Image END */
+
+/* Responsive Navigation Bar BEGIN */
+/*@media only screen and (min-width: 731px) {*/
+	#nav {
+		display: inline-block;
+		margin: 0;
+		margin-right: 30%;
+		padding: 20px;
+		background: #303030;/* for browsers that don't support gradients */
+		background: -webkit-radial-gradient(ellipse at top, #275065 10%, #303030, #303030);/* Safari 5.1 to 6.0 */
+		background: -o-radial-gradient(ellipse at top, #275065 10%, #303030, #303030);/* Opera 11.6 to 12.0 */
+		background: -moz-radial-gradient(ellipse at top, #275065 10%, #303030, #303030);/* FireFox 3.6 to 15 */
+		background: radial-gradient(ellipse at top, #275065 10%, #303030, #303030);/* Standard Syntax */
+
+	}
+
+	#nav ul {
+		list-style: none;
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav ul a {
+		display: block;
+		padding: 0 15px;
+		line-height: 32px;
+		color: #D0D0D0;/* ZA WARUDO!! */
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 26px;
+		text-shadow: 0px 0px 0px #D0D0D0;/* MUDA! MUDA! MUDA! */
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	#nav ul li {
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav ul li.current-menu-item a, #nav ul li a:hover, #nav ul ul li:hover {
+		color: white !important;
+		text-shadow: 0px 0px 5px white;
+	}
+	
+	#nav ul li.not-current-menu-item a, #nav ul li a:hover, #nav ul ul li:hover {
+		color: #D0D0D0 !important;
+		text-shadow: 0px 0px 0px white;
+	}
+
+	#nav ul ul {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: #353535;
+		padding: 0;
+	}
+
+	#nav ul ul li {
+		float: none;
+		width: 200px;
+	}
+
+	#nav ul ul a {
+		line-height: 120%;
+		padding: 10px 15px;
+	}
+
+	#nav ul li:hover > ul { display: block; }
+/*}
+
+@media only screen and (max-width: 730px) {
+	#nav {
+		display: inline-block;
+		margin: 0;
+		padding: 20px 20px;
+		background: #303030;*//* for browsers that don't support gradients */
+/*		background: -webkit-radial-gradient(ellipse at top, #275065 5%, #303030, #303030, #303030);*//* Safari 5.1 to 6.0 */
+/*		background: -o-radial-gradient(ellipse at top, #275065 5%, #303030, #303030, #303030);*//* Opera 11.6 to 12.0 */
+/*		background: -moz-radial-gradient(ellipse at top, #275065 5%, #303030, #303030, #303030);*//* FireFox 3.6 to 15 */
+/*		background: radial-gradient(ellipse at top, #275065 5%, #303030, #303030, #303030);*//* Standard Syntax */
+/*	}
+
+	#nav ul {
+		list-style: none;
+		position: relative;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav ul a {
+		display: block;
+		padding: 0 15px;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 26px;
+		line-height: 32px;
+		color: #D0D0D0;*//* ZA WARUDO!! */
+/*		text-shadow: 0px 0px 0px #D0D0D0;*//* MUDA! MUDA! MUDA! */
+/*		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	#nav ul li {
+		position: relative;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav ul li.current-menu-item a, #nav ul li a:hover, #nav ul ul li:hover {
+		color: white !important;
+		text-shadow: 0px 0px 5px white;
+	}
+
+	#nav ul ul, #nav ul li:hover > ul { display: none; }
+
+	#nav ul ul li {
+		float: none;
+		width: 200px;
+	}
+
+	#nav ul ul a {
+		line-height: 120%;
+		padding: 10px 15px;
+	}
+}*/
+
+/* Responsive Navigation Bar END */

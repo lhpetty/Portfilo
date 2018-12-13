@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Create A Post - The Best of Steam Community</title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+	<body>
+		<nav id="nav">
+		<ul>
+			<li><a href="index.html"><img src="assets\logo.png" /></a></li>
+			<li><a href="index.html"><img src="assets\home 2.png" /></a></li>
+			<li><a href="index.html">Featured</a></li>
+			<li><a href="categories.html">Categories</a>
+			<ul>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="discussions.html">Discussions</a></li>
+			</ul>
+			</li>
+			<li><a href="account.html">My Account</a></li>
+		</ul>
+		</nav>
+		<!-- TO DO: Add navigation bar that floats right for account actions -->
+
+		<center id="main-content" style="margin: 0 auto !important;">
+			<form action = "http://localhost:8080/BestOfSteam/UpdatePost.php" method = "request">
+			<h1>CREATE POST</h1><br>
+
+			<h2>Title:</h2>
+			<input type="text" name="title" placeholder="" /><br><br>
+
+			<h2>Category:</h2>
+			<input type="radio" name="category" value="discussions" /><strong style="color: white;"> Discussions</strong><br>
+			<input type="radio" name="category" value="reviews" /><strong style="color: white;"> Reviews</strong><br><br>
+			<!-- If they don't select either, it should be value="N/A" where it shows on the home page, but not filtered in categories -->
+			
+			<h2>Post Screenshot:</h2>
+			<input type="file" name="screenshot" style="background: white;"><br><br><br>
+
+			<button type="submit">
+			Create My Post!
+			</button>
+			</form>
+
+		</center>
+	</body>
+</html>

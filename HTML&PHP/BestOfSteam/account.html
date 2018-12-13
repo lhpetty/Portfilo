@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>My Account - The Best of Steam Community</title>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+	<body>
+		<nav id="nav">
+		<ul>
+			<li><a href="index.html"><img src="assets\logo.png" /></a></li>
+			<li><a href="index.html"><img src="assets\home 2.png" /></a></li>
+			<li><a href="index.html">Featured</a></li>
+			<li><a href="categories.html">Categories</a>
+			<ul>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="discussions.html">Discussions</a></li>
+			</ul>
+			</li>
+			<li class="current-menu-item"><a href="account.html">My Account</a></li>
+		</ul>
+		</nav>
+		<!-- TO DO: Add navigation bar that floats right for account actions -->
+
+		<div id="sign-up">
+			<center>
+				<form action = "http://localhost:8080/BestOfSteam/UpdateUser.php" method = "request">
+				
+				<h1>Register:</h1><br>
+
+				<h2>Username:</h2>
+				<input type="text" name="username" placeholder="Username" /><br><br>
+
+				<h2>Password:</h2>
+				<input type="password" name="userpassword" placeholder="Password" /><br><br><br>
+
+				<button type="submit">
+				Sign Me Up!
+				</button>
+				
+				</form>
+
+			</center>
+		</div>
+		
+		<div id="sign-in">
+			<form action = "http://localhost:8080/BestOfSteam/LogIn.php" method = "request">
+			<center> 
+				<h1>Login:</h1><br>
+
+				<h2>Username:</h2>
+				<input type="text" name="username" placeholder="Username" /><br><br>
+
+				<h2>Password:</h2>
+				<input type="password" name="userpassword" placeholder="Password" /><br><br><br>
+
+				<button type="submit">
+				Reporting In!
+				</button>
+				</form>
+			</center>
+		</div>
+	</body>
+</html>
